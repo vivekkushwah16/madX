@@ -1,0 +1,52 @@
+.navLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding:0 2em;
+}
+.navLink .type{
+    color:#000;
+    margin-right: 2em;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:1em;
+}
+.tags .tagLink{
+    text-decoration: none;
+    font-size:1em ;
+    text-align: center;
+    width: 10em;
+    cursor: pointer;
+    padding: 0.6em 1em;
+    margin:0.5em;
+    border: 2px solid rgb(4, 130, 248);
+    color: #000;
+    border-radius: 10px;
+}
+.tagLink:hover{
+    background-color:rgb(4, 130, 248) ;
+    color:#fff;
+}
+.filterCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.changeBg{
+    background-color:rgb(4, 130, 248) ;
+    color:#fff;
+}
+@media (max-width :850px){
+    .navLink{
+        flex-direction: column;
+    }
+    }
