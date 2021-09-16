@@ -1,0 +1,59 @@
+.VideoPlayer{
+  width: "25em";
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+  border:2px solid rgb(0, 0, 0, 0.2);
+}
+.closeIcon{
+    position: absolute;
+    top:0%;
+   right: 0;
+   font-size: 1em;
+   
+} 
+.videoContent {
+    position: relative;
+    z-index: 10;
+    
+  }
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+  .tagBtn{
+    padding:0.3em 1em;
+    background-color: #fff;
+    color: rgb(2, 2, 87);
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 10px;
+    outline: none; 
+    margin-right: 4px;
+  }.card-title{
+    color: rgb(2, 2, 87) !important;
+  }
+  .card-text{
+    margin-top: 10px;
+    font-weight: 300 !important;
+    color: rgb(2, 2, 87) !important;
+  }
+  .showLess{
+    color: rgb(2, 2, 87) !important;
+  cursor: pointer;
+  }
+   
+  @media (max-width: 450px) {
+    .VideoPlayer{
+      width: "20em";
+      position:inherit;
+    }
+  }
+
+

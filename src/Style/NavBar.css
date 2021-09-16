@@ -1,0 +1,73 @@
+.LinkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLink {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0 5em;
+}
+.navLink .type {
+  color: #000;
+  margin-right: 1em;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-top: 0em;
+}
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tags .tagLink {
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  width: 8em;
+  cursor: pointer;
+  padding: 0.6em 0.9em;
+  margin: 0.5em;
+  border: 2px solid rgb(165, 227, 247);
+  color: #000;
+  border-radius: 10px;
+}
+.activeLink{
+  background-color: rgb(165, 227, 247);
+}
+.filterContent {  
+  
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: 10% 80% 10%;
+ 
+}
+.filterCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   align-items: center; 
+  grid-row:2/3;
+  grid-column: 2/3;
+}
+.changeBg {
+  background-color: rgb(4, 130, 248);
+  color: #fff;
+}
+@media (max-width: 850px) {
+  .navLink {
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  .navLink {
+    margin-top: 10%;
+  }
+}
