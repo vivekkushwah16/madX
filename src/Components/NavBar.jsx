@@ -58,6 +58,7 @@ function NavBar() {
                   image={item.thumbnailUrl}
                   title={item.title}
                   description={item.description}
+                  link={item.videolink}
                 />
               ))
             : null}
